@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-<title>IT's New Blog</title>
+<title>IT's News Blog</title>
 <!-- custom-theme -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -12,13 +12,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //custom-theme -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/table-style.css" />
+<link rel="stylesheet" type="text/css" href="css/basictable.css" />
 <link href="css/component.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/export.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/flipclock.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/circles.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style_grid.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-
 <!-- font-awesome-icons -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
 <!-- //font-awesome-icons -->
@@ -43,15 +41,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<a href="blogpost.html"> <i class="fa fa-file-text-o" aria-hidden="true"></i>Blog Post Management</a> 
 									<!--validation -> blogpost.html-->
 								</li>
-								<li><a href="categorymanage.html"> <i class="fa fa-table" aria-hidden="true"></i> Category Management</a></li>
+								<li><a href="categorymanage.html"> <i class="fa fa-list-ol" aria-hidden="true"></i> Category Management</a></li>
 								<!--Table -> categorymanage.html-->
 								
-								<li><a href="rolemanage.html"> <i class="fa fa-line-chart" aria-hidden="true"></i> Role Management</a></li>
-								<!--chart -> rolemanage.html-->
+								<li><a href="rolemanage.html"> <i class="fa fa-users" aria-hidden="true"></i> Role Management</a></li>
+								<!--chart -> rolemanage.html--> 
 								<li><a href="usermanage.html"><i class="fa fa-user" aria-hidden="true"></i> User Management</a></li>
 								<!--maps -> usermanage.html-->
 								<li class="page">
-									<a href="#"><i class="fa fa-files-o" aria-hidden="true"></i> Admin's account <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+									<a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Admin's account <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 										 <ul class="gn-submenu">
 						
 									  <li class="mini_list_agile"> <a href="signin.html"> <i class="fa fa-caret-right" aria-hidden="true"></i> Sign In</a></li>
@@ -60,15 +58,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</ul>
 								</li>
 								<li>
-									<a href="privilege.html"> <i class="fa fa-suitcase" aria-hidden="true"></i>Privilege</a> 
+									<a href="privilege.html"> <i class="fa fa-indent" aria-hidden="true"></i>Privilege</a> 
 									<!--More -> privilege.html-->
 								</li>
 								
 								<li>
-									<a href="fileandfolder.html"> <i class="fa fa-file-text-o" aria-hidden="true"></i>File & Folder Management</a> 
+									<a href="fileandfolder.html"> <i class="fa fa-folder" aria-hidden="true"></i>File & Folder Management</a> 
 									<!--fileandfolder.html-->
 								</li>
-							</ul>
+								</ul>
 						</div><!-- /gn-scroller -->
 					</nav>
 				</li>
@@ -215,9 +213,116 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</li>
 
 			</ul>
-			<!-- //nav -->
-			
+				
 		</div>
+			<!-- //nav -->
+		
+
+				<div class="clearfix"></div>
+		<!-- //w3_agileits_top_nav-->
+		
+		<!-- /inner_content-->
+				<div class="inner_content">
+				    <!-- /inner_content_w3_agile_info-->
+
+					<!-- breadcrumbs -->
+					<div class="w3l_agileits_breadcrumbs">
+						<div class="w3l_agileits_breadcrumbs_inner">
+							<ul>
+								<li><a href="main-page.html">Home</a><span>«</span></li>
+								
+								<li>Privilege</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //breadcrumbs -->
+					<div class="w3l-table-info agile_info_shadow">
+							<h3 class="w3_inner_tittle two">Privilege</h3>
+							<table style="width: 100%" class="text-center"id="table-breakpoint">
+								<div align=right>
+									<a href="addprivilege.html" class="btn btn-primary btn-xs">Add</a>
+								</div>
+							  <thead>
+								<tr>
+									<th >#</th>
+									<th >Name</th>
+									
+									<th >Privilege</th>
+									<th ></th>
+									<th ></th>
+									<th ></th>
+									<th ></th>
+									
+									<th style="width: 90px">Action</th>
+									<th ></th>
+									
+
+							  </thead>
+							  <tbody>
+									
+						<tr>
+							<td>#</td>
+							<td>Admin </td>
+							<td>Full access</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							
+							<td></td>
+							<td></td>
+							<td></td>
+
+							
+							
+						
+							
+						  </tr>
+						  <tr>
+							  <td>#</td>
+							  <td>User</td>
+							  <td><input type="checkbox" name="" value="" checked>View posts<br></td>
+							  <td><input type="checkbox" name="" value="" >Create posts<br></td>
+							  <td><input type="checkbox" name="" value="" >Edit<br></td>
+							  <td><input type="checkbox" name="" value="" >delete<br></td>
+							  <td></td>
+							  
+							  
+						   
+							  <td><a href="updatepri1-2.html"  class="btn btn-success btn-xs" >Update</a></td>
+							  <td><a href="deletepri2.html" class="btn btn-danger btn-xs"onclick="return confirm('Are you sure?')">Delete</a></td>
+							  
+							</tr>
+							<tr>
+							  <td>#</td>
+							  <td>Editor</td>
+							  
+							  <td><input type="checkbox" name="" value="" checked>View posts<br></td>
+							  <td><input type="checkbox" name="" value="" >Create posts<br></td>
+							  <td><input type="checkbox" name="" value="" checked>Edit<br></td>
+							  <td><input type="checkbox" name="" value="" >Delete<br></td>
+							  <td></td>
+							  
+							  <td><a href="updatepri1-3.html"  class="btn btn-success btn-xs" >Update</a></td>
+							  <td><a href="deletepri3.html" class="btn btn-danger btn-xs"onclick="return confirm('Are you sure?')">Delete</a></td>
+							  
+							</tr>
+						   
+							 </tr>
+										 
+							  </tbody>
+							</table>
+							</div>
+					
+
+
+
+
+
+
+
+
+
+		
 		
 <!-- js -->
 

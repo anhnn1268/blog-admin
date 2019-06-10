@@ -1778,7 +1778,7 @@
 .fa-mars-stroke-h:before {
   content: "\f22b";
 }
-.fa-neuter:before {
+.fa-user-circle:before {content: "\f2bd";}.fa-neuter:before {
   content: "\f22c";
 }
 .fa-genderless:before {

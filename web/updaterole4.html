@@ -20,7 +20,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- font-awesome-icons -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
 <!-- //font-awesome-icons -->
-
 <link href="css/font-awesome-icon.css" rel="stylesheet">
 </head>
 <body>
@@ -42,15 +41,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<a href="blogpost.html"> <i class="fa fa-file-text-o" aria-hidden="true"></i>Blog Post Management</a> 
 									<!--validation -> blogpost.html-->
 								</li>
-								<li><a href="categorymanage.html"> <i class="fa fa-table" aria-hidden="true"></i> Category Management</a></li>
+								<li><a href="categorymanage.html"> <i class="fa fa-list-ol" aria-hidden="true"></i> Category Management</a></li>
 								<!--Table -> categorymanage.html-->
 								
-								<li><a href="rolemanage.html"> <i class="fa fa-line-chart" aria-hidden="true"></i> Role Management</a></li>
-								<!--chart -> rolemanage.html-->
+								<li><a href="rolemanage.html"> <i class="fa fa-users" aria-hidden="true"></i> Role Management</a></li>
+								<!--chart -> rolemanage.html--> 
 								<li><a href="usermanage.html"><i class="fa fa-user" aria-hidden="true"></i> User Management</a></li>
 								<!--maps -> usermanage.html-->
 								<li class="page">
-									<a href="#"><i class="fa fa-files-o" aria-hidden="true"></i> Admin's account <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+									<a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Admin's account <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 										 <ul class="gn-submenu">
 						
 									  <li class="mini_list_agile"> <a href="signin.html"> <i class="fa fa-caret-right" aria-hidden="true"></i> Sign In</a></li>
@@ -59,12 +58,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									</ul>
 								</li>
 								<li>
-									<a href="privilege.html"> <i class="fa fa-suitcase" aria-hidden="true"></i>Privilege</a> 
+									<a href="privilege.html"> <i class="fa fa-indent" aria-hidden="true"></i>Privilege</a> 
 									<!--More -> privilege.html-->
 								</li>
 								
 								<li>
-									<a href="fileandfolder.html"> <i class="fa fa-file-text-o" aria-hidden="true"></i>File & Folder Management</a> 
+									<a href="fileandfolder.html"> <i class="fa fa-folder" aria-hidden="true"></i>File & Folder Management</a> 
 									<!--fileandfolder.html-->
 								</li>
 							</ul>
@@ -229,7 +228,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<h3 class="w3_inner_tittle two">Update role</h3>
                                             
                                             <div class="box-body">
-                                            <form action="rolemanage.html" method="post">
+                                            <form action="/curriculum/add" method="post">
                                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                                         <div class="col-md-4">
                                                                     <div class="form-group">
@@ -256,8 +255,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                     
                                             <!-- /.box-body -->
                                             <div class="box-footer text-right">
-													<a href="rolemanage.html" onclick="return confirm('A new post has been saved a draft successfully.');"> <button class="btn btn-info btn-sm btn-flat desc" >Save</button></a>
-													&nbsp;&nbsp;&nbsp;
+                                             
+                                                <class="text-center"><a href="updaterolesuccess4.html" class="btn btn-primary">Save</a>
                                             </div>
                                         
                                           </div>

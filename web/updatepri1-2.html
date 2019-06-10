@@ -221,72 +221,65 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		
 		<!-- /inner_content-->
 				<div class="inner_content">
-				    <!-- /inner_content_w3_agile_info-->
+					<!-- /inner_content_w3_agile_info-->
+					
+					<!-- breadcrumbs -->
+					<div class="w3l_agileits_breadcrumbs">
+						<div class="w3l_agileits_breadcrumbs_inner">
+							<ul>
+								<li><a href="main-page.html">Home</a><span>«</span></li>
+								
+								<li>Privilege</li>
+							</ul>
+						</div>
+					</div>
+					<!-- //breadcrumbs -->
 
 					<!-- breadcrumbs -->
-						<div class="w3l_agileits_breadcrumbs">
-							<div class="w3l_agileits_breadcrumbs_inner">
-								<ul>
-									<li><a href="main-page.html">Home</a><span>«</span></li>
-									
-									<li>Role Management</li>
-								</ul>
-							</div>
-						</div>
-					<!-- //breadcrumbs -->
-					<div class="w3l-table-info agile_info_shadow">
-							<h3 class="w3_inner_tittle two">Role Management</h3>
-							<div align=right>
-							<class style="width: 600px" class="text-center"><a href="addrole.html" class="btn btn-primary">Add new role</a>
-							<table style="width: 100%" class="text-center"id="table-breakpoint">
-							</div>
-									
-							  <thead>
-									<tbody><tr>
-										<th style="width: 15px">ID</th>
-										<th>Name</th>
-										<th>Role</th>
-										<th style="width: 50px">Action</th>
-										<th style="width: 50px"></th>
-									
-										
-									
-									
-										
-								</tr>
-							  </thead>
-							  
-									<tr>
-											<td>1</td>
-											<td>Phú Thị Dung</td>
-											<td>Admin </td>
-											
-											<td><a href="updaterole1.html"  class="btn btn-success btn-xs">Update</a></td>
-											<td><a href="deleterole1.html" class="btn btn-danger btn-xs" onclick="return confirm('Are you sure?')">Delete</a></td>
-											
-										  </tr>
-										  <tr>
-											  <td>2</td>
-											  <td>Phạm Thị Ngọc Anh</td>
-											  <td>User</td>
-											 
-											  <td><a href="updaterole2.html"  class="btn btn-success btn-xs">Update</a></td>
-											  <td><a href="deleterole2.html" class="btn btn-danger btn-xs"onclick="return confirm('Are you sure?')">Delete</a></td>
-											  
-											</tr>
-											<tr>
-											  <td>3</td>
-											  <td>Nguyễn Ngọc Ánh</td>
-											  <td>Editor</td>
-											  
-											  <td><a href="updaterole3.html"  class="btn btn-success btn-xs">Update</a></td>
-											  <td><a href="deleterole3.html" class="btn btn-danger btn-xs"onclick="return confirm('Are you sure?')">Delete</a></td>
-											  
-											</tr>
-										   
-											 </tr>
-							  </tbody>
-							</table>
+                    <div class="w3l-table-info agile_info_shadow">
+							<h3 class="w3_inner_tittle two">Update</h3>
+                                            
+                                            <div class="box-body">
+                                            <form action="/curriculum/add" method="post">
+                                                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                                        <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                            <label>#</label>
+                                                                            <input placeholder="#" type="text" name="code"  class="form-control my-colorpicker1 colorpicker-element">
+                                                                            
+                                                                 </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                            <label>Name</label>
+                                                                            <input placeholder="User"type="text" name="code"  class="form-control my-colorpicker1 colorpicker-element">
+                                                                 </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                            <label>Role</label>
+																			<td><input type="checkbox" name="" value="" class="form-control my-colorpicker1 colorpicker-element" checked>View posts</td>
+																			<td><input type="checkbox" name="" value="" class="form-control my-colorpicker1 colorpicker-element" checked>Create posts</td>
+																			<td><input type="checkbox" name="" value="" class="form-control my-colorpicker1 colorpicker-element" >Edit<br></td>
+																			<td><input type="checkbox" name="" value="" class="form-control my-colorpicker1 colorpicker-element" >Delete<br></td>
+																			<td><input type="checkbox" name="" value="" class="form-control my-colorpicker1 colorpicker-element" >Full access<br></td>
+                                                                 </div>
+                                                            </div>
+                                                           
+                                                  </div>
+ 
+                                    
+                                            <!-- /.box-body -->
+                                            <div class="box-footer text-right">
+                                             
+                                                <class="text-center"><a href="updatepri2.html" class="btn btn-primary" onclick="return confirm('Are you sure?')">Save</a>
+                                            </div>
+                                        
+                                          </div>
+                                        </form>
+                                          </div>
+                                          </div>
+                                          
 							</div>
 					
 <!-- js -->
